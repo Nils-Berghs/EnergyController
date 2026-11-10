@@ -1,0 +1,35 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+[Pp]ublish/
+
+# Visual Studio and IDE state
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# Test and diagnostic output
+[Tt]est[Rr]esult*/
+*.trx
+*.log
+BenchmarkDotNet.Artifacts/
+
+# NuGet and generated project files
+packages/
+project.lock.json
+project.fragment.lock.json
+*.nuget.g.props
+*.nuget.g.targets
+
+# Local development configuration
+**/appsettings.Development.json
+
+# Operating system files
+.DS_Store
+Thumbs.db

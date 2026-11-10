@@ -1,0 +1,8 @@
+@EnergyController_HostAddress = http://localhost:5190
+
+
+###
+GET {{EnergyController_HostAddress}}/solar
+Accept: application/json
+
+###
